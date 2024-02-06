@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика выручки</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table id="data-table1">
+    <thead>
+        <tr>
+            <th>Показатель</th>
+            <th class="blue">Текущий день</th>
+            <th>Вчера</th>
+            <th>Этот день недели</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Выручка, руб</td>
+            <td class="blue">500 521</td>
+            <td class="positive"><dev class="flex"><dev>480 521 </dev><dev>4%</dev></dev></td>
+            <td class="negative">4 805 121</td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="chart-container"></div>
+<table id="data-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+       
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

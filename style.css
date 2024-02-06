@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#chart-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#data-table1 {
+    min-width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif; 
+}
+
+#data-table1 thead th {
+    background-color: #f2f2f2;
+    text-align: center; 
+    padding: 13px 25px 13px 0;
+    border: 5px solid white;
+}
+
+#data-table1 tbody td {
+    background-color: #f2f2f2;
+    padding: 13px 25px 13px 0;
+    border: 5px solid white;
+    text-align: right; 
+    width: 20%;
+}
+
+#data-table1 tbody td:first-child {
+    text-align: left;
+    width: 40%;
+}
+
+#data-table1 .positive {
+    background-color: #b6eab3; 
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#data-table1 .negative {
+    background-color: #f4bcbc;
+}
+
+#data-table1 .blue {
+    background-color: rgb(10, 231, 247);
+}
+
+#data-table {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+#data-table th, #data-table td {
+    border: none;
+    padding: 0;
+}
+
+#data-table th {
+    background-color: #f2f2f2;
+}
+
+#data-table td {
+    background-color: #f2f2f2;;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+#data-table td {
+    border: 5px solid white;
+    padding: 13px 25px 13px 0;
+    text-align: right; 
+    width: 20%;
+}
+
+#data-table td:first-child {
+    text-align: left;
+    width: 40%;
+}
+
+
